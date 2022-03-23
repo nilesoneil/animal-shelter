@@ -1,3 +1,6 @@
+body {
+  background: linear-gradient(grey, purple);
+}
 .intro { 
   display: block;
   text-align: center;
@@ -7,26 +10,29 @@
 }
 .intro p {
   font-style: italic; 
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .Clifford {
 padding: 1rem; 
 color: red;
+text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .Cthulhu {
 padding: 1rem;
 color: green;
+text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .Garfield {
 padding: 1rem; 
 color: rgb(211, 81, 6);
+text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .total {
   display: flex;
-  border: 5px solid blue;
+  border: 5px solid purple;
   margin: auto;
   box-sizing: border-box;
   justify-content: space-evenly;
