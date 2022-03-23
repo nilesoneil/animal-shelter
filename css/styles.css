@@ -1,11 +1,19 @@
 .Clifford {
-
+padding: 1rem; 
 }
 
 .Cthulhu {
-
+padding: 1rem;
 }
 
 .Garfield {
-  
+padding: 1rem; 
+}
+
+.total {
+  display: flex;
+  border: 5px solid blue;
+  margin: auto;
+  box-sizing: border-box;
+  justify-content: space-evenly;
 }
