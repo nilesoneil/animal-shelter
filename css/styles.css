@@ -1,13 +1,27 @@
+.intro { 
+  display: block;
+  text-align: center;
+}
+.intro h1 {
+  font-size: 3rem; 
+}
+.intro p {
+  font-style: italic; 
+  font-size: 1.5rem;
+}
 .Clifford {
 padding: 1rem; 
+color: red;
 }
 
 .Cthulhu {
 padding: 1rem;
+color: green;
 }
 
 .Garfield {
 padding: 1rem; 
+color: rgb(211, 81, 6);
 }
 
 .total {
